@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t innoq/nexus3 .
+docker build -t innoq/docker-alpine-nexus3 .
 

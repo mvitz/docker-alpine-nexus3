@@ -2,5 +2,5 @@
 
 docker run -d \
   -p 8081:8081 \
-  innoq/nexus3
+  innoq/docker-alpine-nexus3
 
