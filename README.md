@@ -8,6 +8,15 @@ This repository contains a [Docker] image for using [Sonatype Nexus][] 3 on
 [Sonatype Nexus]: http://www.sonatype.org/nexus/
 
 
+## Run
+
+You can run this container by invoking `./run.sh` or calling docker by yourself:
+
+```
+docker run -d -p 8081:8081 innoq/docker-alpine-nexus3
+```
+
+
 ## TODO
 
 * Configure Nexus to use HTTPS
