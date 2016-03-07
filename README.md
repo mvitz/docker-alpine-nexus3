@@ -1,6 +1,6 @@
 # docker-alpine-nexus3
 
-This repository contains a [Docker] image for using [Sonatype Nexus][]3 on
+This repository contains a [Docker] image for using [Sonatype Nexus][] 3 on
 [Alpine Linux][].
 
 [Alpine Linux]: https://www.alpinelinux.org
