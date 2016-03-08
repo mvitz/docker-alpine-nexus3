@@ -9,7 +9,7 @@ RUN apk add --no-cache --virtual=build-dependencies \
       curl && \
     adduser -s /bin/false -D -H nexus && \
     curl --fail --location \
-        "http://download.sonatype.com/nexus/3/nexus-${NEXUS_VERSION}-unix.tar.gz" \
+        "https://download.sonatype.com/nexus/3/nexus-${NEXUS_VERSION}-unix.tar.gz" \
         | tar xz -C /tmp && \
     mv /tmp/nexus-* /home/nexus && \
     chown -R nexus:nexus /home/nexus && \
